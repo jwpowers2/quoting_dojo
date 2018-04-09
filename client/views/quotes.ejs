@@ -1,0 +1,18 @@
+<html>
+
+<body>
+
+<h1>awesome quotes</h1>
+
+
+<% for(let i of quotes){%>
+
+  <p><%= i.quote %>
+  <p><%= i.createdAt.toDateString() %> by <%= i.name %></p>
+
+<% } %>
+
+
+</body>
+
+</html>
